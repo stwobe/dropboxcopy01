@@ -1,0 +1,10 @@
+#c2_triangle.kbs (saved in /theo/Documents/Programming/BASIC_256/Practice Programs
+
+clg
+
+color blue
+
+line 150, 100, 100, 200
+line 100, 200, 200, 200
+line 200, 200, 150, 100
+line 10, 300, 400, 25

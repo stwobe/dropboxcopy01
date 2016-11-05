@@ -1,0 +1,16 @@
+clg 
+
+for p=10 to 290 step 10
+
+for n=10 to 290 step 10
+
+line 10, n, p, 290
+
+next n
+next p
+
+color blue
+
+line 10, 10, 10, 290
+line 10, 20, 20, 290
+line 10, 30, 30, 290

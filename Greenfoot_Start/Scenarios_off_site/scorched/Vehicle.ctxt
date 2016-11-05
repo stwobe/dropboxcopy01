@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=velocity
+comment0.target=Vehicle(double)
+comment1.params=world
+comment1.target=void\ addedToWorld(greenfoot.World)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Vehicle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=img\ x\ y
+comment3.target=void\ drawWheel(greenfoot.GreenfootImage,\ int,\ int)
+comment4.params=
+comment4.target=int\ getAge()
+numComments=5

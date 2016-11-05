@@ -1,0 +1,8 @@
+REM This will animate a circle in BASIC256
+x = 10
+drawloop: x = x + 1
+clg
+circle x,20,8
+if x > 290 then end
+pause 0.01
+goto drawloop

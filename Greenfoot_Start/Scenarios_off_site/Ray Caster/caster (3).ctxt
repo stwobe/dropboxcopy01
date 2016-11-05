@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ caster()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ Gun1()
+comment3.params=
+comment3.target=void\ Gun2()
+comment4.params=
+comment4.target=void\ Gun3()
+comment5.params=
+comment5.target=void\ Gun4()
+comment6.params=enemy
+comment6.target=void\ kill(int)
+numComments=7

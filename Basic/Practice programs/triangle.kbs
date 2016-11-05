@@ -1,0 +1,6 @@
+# c2_triangle.kbs - draw a triangle
+clg
+color black
+line 150, 100, 100, 200
+line 100, 200, 200, 200
+line 200, 200, 150, 100

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LessonFour
+Comment=LessonFour
+Icon=gnome-info
+Exec=python /home/flossie/Documents2/2programming/01python/01python2/02pyopengl/01examples/lesson4e.py
+Terminal=false
+Type=Application
+Categories=Programming
+
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=0

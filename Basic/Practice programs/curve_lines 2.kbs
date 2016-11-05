@@ -1,0 +1,36 @@
+
+say "drawing curves with lines"
+
+
+for p=1 to 100
+
+	clg	
+	color blue
+	for n=10 to 290 step 10
+	line 10, n, n, 290
+	print n
+	#clg
+	next n
+	
+next p
+
+
+#line 10, 10, 10, 290
+
+
+
+
+#line 10, 70, 70, 290
+
+
+
+#line 10, 140, 140, 290
+
+
+
+#line 10, 220, 220, 290
+
+
+
+#line 10, 290, 290, 290
+ 

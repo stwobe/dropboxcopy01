@@ -1,0 +1,29 @@
+{
+  "mainFile": "flower.py", 
+  "use-tabs": false, 
+  "venv": "", 
+  "relatedProjects": [], 
+  "name": "circle_fun", 
+  "license": "GNU General Public License v3", 
+  "url": "", 
+  "pythonPath": "/usr/bin/python3.4", 
+  "preExecScript": "", 
+  "additional_builtins": [], 
+  "programParams": "", 
+  "indentation": 4, 
+  "PYTHONPATH": "", 
+  "supported-extensions": [
+    ".py", 
+    ".html", 
+    ".jpg", 
+    ".png", 
+    ".ui", 
+    ".css", 
+    ".json", 
+    ".js", 
+    ".ini"
+  ], 
+  "project-type": "", 
+  "postExecScript": "", 
+  "description": "Proper Pythonic stuff - functions, lists, importing modules etc.\n\nBut it just draws flowers!"
+}

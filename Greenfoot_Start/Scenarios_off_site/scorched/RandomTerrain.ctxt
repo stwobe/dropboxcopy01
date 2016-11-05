@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=RandomTerrain(int,\ int)
+comment1.params=
+comment1.target=void\ randomise()
+comment1.text=\n\ \ Generates\ a\ new\ random\ terrain\ from\ scratch\n\ \ and\ draws\ in\ onto\ the\ world\ background\n
+comment2.params=heights\ startX\ endX\ r
+comment2.target=void\ random(float[],\ int,\ int,\ float)
+comment2.text=\n\ Randomly\ generates\ terrain\ in\ the\ given\ range\ of\ the\ given\ array.\n\ \n\ The\ midpoint\ has\ its\ height\ altered\ by\ some\ amount\ between\ -r\ and\ +r,\n\ and\ all\ other\ heights\ in\ the\ range\ are\ altered\ so\ that\ you\ get\ a\ straight\n\ line\ from\ the\ beginning\ of\ the\ range\ to\ the\ midpoint,\ and\ another\n\ straight\ line\ from\ the\ midpoint\ to\ the\ end\ of\ the\ range.\n\ \n\ Then\ the\ algorithm\ performs\ the\ same\ steps\ on\ the\ left-hand\ (west)\ side\n\ of\ the\ midpoint,\ and\ on\ the\ right-hand\ (east)\ side\ of\ the\ midpoint,\n\ but\ with\ the\ value\ of\ r\ halved.\n\ \n\ @param\ heights\ The\ array\ of\ heights\ to\ modify\n\ @param\ startX\ The\ start\ of\ the\ range\ to\ modify\ (inclusive)\n\ @param\ endX\ The\ end\ of\ the\ range\ to\ modify\ (inclusive)\n\ @param\ r\ The\ random\ range\ to\ use\ when\ modifying\ the\ heights\n
+comment3.params=x
+comment3.target=int\ getTerrainHeight(int)
+comment4.params=x\ amount
+comment4.target=void\ destroyTerrain(int,\ int)
+numComments=5

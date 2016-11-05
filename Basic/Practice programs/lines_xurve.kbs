@@ -1,0 +1,26 @@
+#lines_curve.kbs trying to make a curve with lines(saved in /theo/Documents/Programming/BASIC_256/Practice Programs
+
+clg
+
+color red
+plot 10,10 
+plot 11,10
+plot 12,10
+plot 13,10
+
+color black
+plot 16,10
+plot 18,10
+plot 20,10
+plot 16,12
+plot 18,12
+plot 20,13
+
+color black 
+line 0, 0, 0, 290
+line 0, 290, 290, 290
+
+color green
+line 0, 0 ,10, 290
+line 0, 5, 15, 290
+line 0, 10, 20, 290

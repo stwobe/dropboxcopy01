@@ -1,0 +1,58 @@
+[INFO              ] Kivy v1.7.2
+[INFO              ] [Factory     ] 144 symbols loaded
+[DEBUG             ] [Cache       ] register <kv.lang> with limit=None, timeout=Nones
+[DEBUG             ] [Cache       ] register <kv.image> with limit=None, timeout=60s
+[DEBUG             ] [Cache       ] register <kv.atlas> with limit=None, timeout=Nones
+[INFO              ] [Image       ] Providers: img_tex, img_dds, img_pygame, img_pil, img_gif 
+[DEBUG             ] [Cache       ] register <kv.texture> with limit=1000, timeout=60s
+[DEBUG             ] [Cache       ] register <kv.shader> with limit=1000, timeout=3600s
+[DEBUG             ] [Window      ] Ignored <egl_rpi> (import error)
+[INFO              ] [Window      ] Provider: pygame(['window_egl_rpi'] ignored)
+[DEBUG             ] [WinPygame   ] Set window to fullscreen mode
+[DEBUG             ] [Window      ] Display driver android
+[DEBUG             ] [Window      ] Actual window size: 800x480
+[INFO              ] [GL          ] OpenGL version <OpenGL ES 2.0>
+[INFO              ] [GL          ] OpenGL vendor <ARM>
+[INFO              ] [GL          ] OpenGL renderer <Mali-400 MP>
+[INFO              ] [GL          ] OpenGL parsed version: 2, 0
+[INFO              ] [GL          ] Texture max size <4096>
+[INFO              ] [GL          ] Texture max units <8>
+[DEBUG             ] [Shader      ] Fragment compiled successfully
+[DEBUG             ] [Shader      ] Vertex compiled successfully
+[DEBUG             ] [ImagePygame ] Load </data/data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/kivy/data/glsl/default.png>
+[INFO              ] [Support     ] Android install hooks
+[INFO              ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[DEBUG             ] [App         ] Loading kv <./pictures.kv>
+[DEBUG             ] [ImagePygame ] Load </data/data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/kivy/data/../data/images/background.jpg>
+[INFO              ] [GL          ] NPOT texture support is available
+[DEBUG             ] [Cache       ] register <kv.loader> with limit=500, timeout=60s
+[INFO              ] [Loader      ] using a thread pool of 2 workers
+[INFO              ] [Text        ] Provider: pygame
+[DEBUG             ] [ImagePygame ] Load </data/data/com.hipipal.qpyplus/files/lib/python2.7/site-packages/kivy/data/../data/logo/kivy-icon-24.png>
+[DEBUG             ] [ImagePygame ] Load <shadow32.png>
+[DEBUG             ] [ImagePygame ] Load <images/android.jpg>
+[DEBUG             ] [ImagePygame ] Load <images/qpy_land.jpg>
+[INFO              ] [OSC         ] using <thread> for socket
+[DEBUG             ] [Base        ] Create provider from android
+[INFO              ] [Base        ] Start application main loop
+[INFO              ] [Android     ] found 17 joystick
+[INFO              ] [Android     ] create joystick <0>
+[INFO              ] [Android     ] discard joystick <0> cause no button
+[INFO              ] [Android     ] create joystick <1>
+[INFO              ] [Android     ] create joystick <2>
+[INFO              ] [Android     ] create joystick <3>
+[INFO              ] [Android     ] create joystick <4>
+[INFO              ] [Android     ] create joystick <5>
+[INFO              ] [Android     ] create joystick <6>
+[INFO              ] [Android     ] create joystick <7>
+[INFO              ] [Android     ] create joystick <8>
+[INFO              ] [Android     ] create joystick <9>
+[INFO              ] [Android     ] create joystick <10>
+[INFO              ] [Android     ] create joystick <11>
+[INFO              ] [Android     ] create joystick <12>
+[INFO              ] [Android     ] create joystick <13>
+[INFO              ] [Android     ] create joystick <14>
+[INFO              ] [Android     ] create joystick <15>
+[INFO              ] [Android     ] create joystick <16>
+[INFO              ] [Base        ] Leaving application in progress...
+

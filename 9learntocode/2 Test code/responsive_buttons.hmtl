@@ -1,0 +1,118 @@
+<!--
+   responsive_buttons.hmtl
+   
+   Copyright 2016 Steve Roberts <flossie@mint_lappy>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>untitled</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.24.1" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+</style>
+	
+</head>
+
+<body>
+	
+
+
+<div class="container-fluid">
+	
+	
+	<div class="row">
+		<div class="col-xs-8">
+			<h2 class="text-primary text-center">CatPhotoApp</h2>
+		</div>
+		<div class="col-xs-4">
+			<a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat"></a>
+		</div>
+	</div>
+		<img src="https://bit.ly/fcc-running-cats" class="img-responsive">
+	<div class="row">
+		<div class="col-xs-4">
+			<button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button>
+		</div>
+		<div class="col-xs-4">
+			<button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
+		</div>
+		<div class="col-xs-4">
+			<button class="btn btn-block btn-danger"><i class="fa fa-trash"></i> Delete</button>
+		</div>
+	</div>
+	
+	
+	
+  <p>Things cats <span class="text-danger">love:</span></p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+	  
+	  
+	  
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="row>">
+       <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Indoor</label>
+          </div>
+          </div>
+   <div class="col-xs-6"><label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+        </div>
+        
+        
+    <label><input type="checkbox" name="personality"> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Crazy</label>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+    </div>
+    </div>
+      </form>
+   
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ Dropper\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=
+comment1.target=void\ liftDiscs()
+comment2.params=
+comment2.target=void\ dropDiscs()
+comment3.params=amount
+comment3.target=void\ moveSideways(int)
+comment4.params=
+comment4.target=Disc\ highestDisc()
+numComments=5

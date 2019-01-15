@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# NEXT - ?
+
+echo "This will repeat some espeak command in a loop with the pitch getting higher."
+
+#########################
+
+# this section below is to practice how to increment and use that in espeak
+
+##########################
+
+c=10
+
+echo $c
+
+espeak -p $c "Hello"
+
+(( c=c+40 ))
+
+echo $c
+
+espeak -p $c "Hello"
+
+#########################
+
+# put while loop here
+
+c=10
+
+while [ $c -le 102 ]
+do
+        echo $c 
+        espeak -p $c "Charlie"
+        (( c=c+10 ))
+done
+
+###########################

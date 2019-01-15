@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# script to just practice while loops
+
+# from Nixcraft
+
+# https://www.cyberciti.biz/faq/shell-script-while-loop-examples/
+
+c=1
+while [ $c -le 5 ]
+do
+        echo "Welcome $c times"
+        (( c++ ))
+done            

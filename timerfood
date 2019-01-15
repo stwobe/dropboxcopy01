@@ -1,0 +1,65 @@
+#!/bin/bash
+
+# this is going to be a timer for when I'm cooking
+
+#############################################
+
+# "sudo" code
+
+# ask for time needed in minutes
+
+# print time left
+
+# convert time to seconds
+
+# loop
+# pause 1 second
+# print time left
+
+# play sound (looping)
+
+############################################
+
+
+# ask for time needed in minutes
+echo "How many minutes do you want to put the timer on for?"
+read T
+
+
+# print time left
+echo "There are $T minutes left"
+
+
+# convert time to seconds
+(( T = T * 60 ))
+
+
+# loop
+while [ $T -ge 0 ]
+do
+        echo "There are now $T seconds left"
+        (( T = T-1 ))
+        sleep 1
+done
+
+
+# play sound (looping)
+while [ $T -le 10 ]
+do
+         ls | aplay
+         ls | aplay
+         ls | aplay
+         sleep 1
+         espeak -v en-sc+whisper "hi ho"
+         sleep 1
+done
+
+
+
+
+
+
+
+
+
+
